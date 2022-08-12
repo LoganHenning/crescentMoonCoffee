@@ -1,0 +1,106 @@
+body{
+	font-family:  "Roboto", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	background-color:#8e8268;
+	color:#86b3d1;
+}
+/*navbar*/
+.bar{
+	padding-top: 1rem;
+	background-color:#844d36;
+	color:#86b3d1;
+	border-bottom: #474853 solid 2px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+li{
+	font-size: 1.5rem;
+	padding: 0.5rem 1.5rem;
+	margin-right: 1.5rem;
+	display: inline-block;
+	color:#86b3d1;
+	font-family:"Sue Ellen Francisco";
+}
+/*intro section*/
+.intro{
+	height: 40rem;
+	padding-top:1rem;
+	background-image: url(images/background.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.intro h1{
+	color:#86b3d1;
+	font-size: 4rem;
+	font-family: "Sue Ellen Francisco";
+	background-color:#474853;
+	text-align: center;
+}
+/*summary section*/
+.summary{
+	padding: 0.1rem;
+	text-align: center;
+	border-top: #474853 solid 2px;
+}
+/*menu section*/
+#menu{
+	text-align: center;
+	font-family: "Sue Ellen Francisco";
+	font-size: 2rem;
+}
+#menu h1{
+	background-color:#474853;
+}
+	
+#menu img{
+	height: 20rem;
+	width: auto;
+	margin: auto;
+}
+#menu .content{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.menuItem{
+	display: block;
+	text-align: center;	
+}
+/*events section*/
+#events .content{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#events img{
+	height: 20rem;
+	width: auto;
+	margin: auto;
+}
+#events h1{
+	background-color:#474853;
+}
+#events h3{
+	border-top: #474853 solid 2px;
+	border-bottom: #474853 solid 2px;
+}
+#events{
+	text-align: center;
+	font-family: "Sue Ellen Francisco";
+	font-size: 2rem;
+}
+/*history section*/
+
+#history .content{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border: #474853 solid 2px;
+	margin-bottom: 2rem;
+}
+
